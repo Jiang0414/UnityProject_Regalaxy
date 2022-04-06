@@ -176,9 +176,14 @@ MonoBehaviour:
   - {fileID: 2070379217764584686, guid: bb2d30a145ffd3f43b8994fc78bce645, type: 3}
   - {fileID: 5207341076191951968, guid: 7f86ce5ff0952ee49b9d3dc78bc71ae7, type: 3}
   - {fileID: 1584302370087748658, guid: 547e87cfa90abab48993954da265f79f, type: 3}
-  row: 10
-  column: 10
+  row: 15
+  column: 15
   offset: 64
+  block2: 2
+  block3: 0
+  minusRow: 0.6
+  minusColum: 0.6
+  isdestory: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
