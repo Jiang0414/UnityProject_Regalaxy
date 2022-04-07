@@ -42,6 +42,8 @@ public class SetFloor : MonoBehaviour
             {
                 pos = new Vector3(pos.x = j != 0 ? pos.x + offset : tempX, tempY, 0);
                 GameObject floor = Instantiate<GameObject>(floors[0], transform);
+                FloorData floorData = floor.GetComponent<FloorData>();
+                floorData = new FloorInfo(j, i, 1);
                 floor.name = floor.name.Replace("(Clone)", "");
                 floor.transform.localPosition = pos;
                 blocks[j, i] = floor;

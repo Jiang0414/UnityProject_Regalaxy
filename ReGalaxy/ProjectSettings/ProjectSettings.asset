@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: RichLand
-  productName: RichLand
+  companyName: ReGalaxy
+  productName: ReGalaxy
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -688,7 +688,7 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: -s ALLOW_MEMORY_GROWTH=1 -s TOTAL_MEMORY=2141519872
   webGLModulesDirectory: 
-  webGLTemplate: PROJECT:RichLand
+  webGLTemplate: PROJECT:Regalaxy
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 1
