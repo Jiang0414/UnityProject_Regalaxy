@@ -8,6 +8,7 @@ public class Info : MonoBehaviour
 {
     FloorInfo floorData;
     Floors floors;
+    public GameObject toggleMask;
     public int x, y, range;
     private bool isBuying;
     private Image imgState;
@@ -18,6 +19,7 @@ public class Info : MonoBehaviour
     {
         isBuying = false;
         floors = transform.parent.GetComponent<Floors>();
+        toggleMask = transform.Find("img_block").transform.Find("img_mask").gameObject;
         windowState = transform.parent.parent.Find("FloorState").GetComponent<UI_BuyFloor>();
         imgState = transform.Find("img_block").transform.Find("img_state").GetComponent<Image>();
         range = (int)transform.GetComponent<RectTransform>().rect.width / 64;
@@ -45,13 +47,26 @@ public class Info : MonoBehaviour
 
     public void Btn_OpenBuyWindow()
     {
-        windowState.gameObject.SetActive(false);
-        isBuying = true;
-        imgState.sprite = stateSelected;
-        windowState.floor = this;
-        windowState.x = x;
-        windowState.y = y;
-        windowState.transform.localPosition = transform.localPosition;
-        windowState.gameObject.SetActive(true);
+        if (!isBuying)
+        {
+            isBuying = true;
+            windowState.gameObject.SetActive(false);
+            imgState.sprite = stateSelected;
+            windowState.floor = this;
+            windowState.x = x;
+            windowState.y = y;
+            windowState.transform.localPosition = transform.localPosition;
+            windowState.gameObject.SetActive(true);
+            return;
+        }
+
+        if (isBuying)
+        {
+            isBuying = false;
+            windowState.gameObject.SetActive(false);
+            imgState.sprite = stateIdle;
+            windowState.floor = null;
+            return;
+        }
     }
 }

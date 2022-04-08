@@ -49,7 +49,7 @@ public class SetFloor : MonoBehaviour
                 blocks[j, i] = floor;
             }
         }
-        MinusBlock(row, column, minusRow, minusColum);
+        //MinusBlock(row, column, minusRow, minusColum);
     }
 
     private void MinusBlock(int row, int column, float minusRow, float minusColum)
