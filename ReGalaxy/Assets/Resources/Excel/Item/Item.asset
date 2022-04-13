@@ -1,0 +1,618 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553868b91e7cd2d459bf258900879aea, type: 3}
+  m_Name: Item
+  m_EditorClassIdentifier: 
+  SheetName: Assets/04Excel/System.xlsx
+  WorksheetName: Item
+  dataArray:
+  - number: 1
+    name: "Regal\u5E63"
+    icon: 0
+    type: "Regal\u5E63"
+    value1: 0
+    content: 0
+  - number: 2
+    name: "\u947D\u77F3"
+    icon: 0
+    type: "\u947D\u77F3"
+    value1: 0
+    content: 0
+  - number: 10
+    name: "\u73A9\u5BB6\u7D93\u9A57\u503C"
+    icon: 0
+    type: "\u73A9\u5BB6\u7D93\u9A57\u503C"
+    value1: 0
+    content: 0
+  - number: 1001
+    name: "\u9F52\u8F2A"
+    icon: 1001
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: "\u5347\u7D1A\u7D20\u6750\u7D44\u4EF6\uFF0C\u7528\u65BC\u5347\u7D1A******\uFF0C\u53EF\u5408\u6210\u5DE5\u7A0B\u5305"
+  - number: 1002
+    name: "\u6728\u6750"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1003
+    name: "\u5DE5\u7A0B\u5305"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1004
+    name: "\u534A\u5C0E\u9AD4"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1005
+    name: "\u77FD\u7D50\u6676"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1006
+    name: "\u79D1\u6280\u6676\u7247"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1007
+    name: "\u85CD\u5716\u788E\u7247"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1008
+    name: "\u80FD\u6E90\u85CD\u5716"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 2001
+    name: "\u57FA\u790E\u767C\u96FB\u5EE0"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2002
+    name: "\u80FD\u6E90\u767C\u96FB\u5EE0"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2003
+    name: "\u57FA\u790E\u5DE5\u5EE0"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2004
+    name: "\u79D1\u6280\u5DE5\u5EE0"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2005
+    name: "\u5C0F\u5403\u6524"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2006
+    name: "\u5BB6\u5EAD\u9910\u9928"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2007
+    name: "\u5C0F\u9910\u5EF3"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2008
+    name: "\u58FD\u53F8\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2009
+    name: "\u51B0\u679C\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2010
+    name: "\u70D8\u7119\u5C4B"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2011
+    name: "\u98F2\u6599\u6524"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2012
+    name: "\u98F2\u6599\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2013
+    name: "\u9023\u9396\u98F2\u6599\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2014
+    name: "\u8336\u85DD\u9928"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2015
+    name: "\u5496\u5561\u5EF3"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2016
+    name: "\u725B\u5976\u8216"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2017
+    name: "\u8DEF\u908A\u5C0F\u8CA9"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2018
+    name: "\u8857\u89D2\u5546\u8216"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2019
+    name: "\u96F6\u552E\u5546\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2020
+    name: "\u91CF\u8CA9\u5546\u5834"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2021
+    name: "\u767B\u5C71\u5E33\u7BF7"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2022
+    name: "\u5C0F\u6728\u5C4B"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2023
+    name: "\u9732\u71DF\u6728\u5C4B"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2024
+    name: "\u7368\u68DF\u4F4F\u5B85"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2025
+    name: "\u516C\u8ECA\u7AD9\u724C"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2026
+    name: "\u516C\u8ECA\u505C\u9760\u7AD9"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2027
+    name: "\u516C\u8DEF\u4F11\u606F\u7AD9"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2028
+    name: "\u6C7D\u8ECA\u7DAD\u4FEE\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2029
+    name: "\u505C\u6A5F\u576A"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2030
+    name: "\u81E8\u6642\u91AB\u7642\u88DD\u7F6E"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2031
+    name: "\u7DCA\u6025\u6025\u6551\u7AD9"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2032
+    name: "\u5C0F\u578B\u8A3A\u6240"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2033
+    name: "\u5C08\u9580\u8A3A\u6240"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2034
+    name: "\u85E5\u5C40"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2035
+    name: "\u5C0F\u516C\u5712"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2036
+    name: "\u793E\u5340\u516C\u5712"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2037
+    name: "\u793E\u5340\u4E2D\u592E\u516C\u5712"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2038
+    name: "\u62F1\u6A4B\u666F\u5340"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2039
+    name: "\u570B\u5BB6\u516C\u5712"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  dataList:
+  - number: 1
+    name: "Regal\u5E63"
+    icon: 0
+    type: "Regal\u5E63"
+    value1: 0
+    content: 0
+  - number: 2
+    name: "\u947D\u77F3"
+    icon: 0
+    type: "\u947D\u77F3"
+    value1: 0
+    content: 0
+  - number: 10
+    name: "\u73A9\u5BB6\u7D93\u9A57\u503C"
+    icon: 0
+    type: "\u73A9\u5BB6\u7D93\u9A57\u503C"
+    value1: 0
+    content: 0
+  - number: 1001
+    name: "\u9F52\u8F2A"
+    icon: 1001
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: "\u5347\u7D1A\u7D20\u6750\u7D44\u4EF6\uFF0C\u7528\u65BC\u5347\u7D1A******\uFF0C\u53EF\u5408\u6210\u5DE5\u7A0B\u5305"
+  - number: 1002
+    name: "\u6728\u6750"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1003
+    name: "\u5DE5\u7A0B\u5305"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1004
+    name: "\u534A\u5C0E\u9AD4"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1005
+    name: "\u77FD\u7D50\u6676"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1006
+    name: "\u79D1\u6280\u6676\u7247"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1007
+    name: "\u85CD\u5716\u788E\u7247"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 1008
+    name: "\u80FD\u6E90\u85CD\u5716"
+    icon: 0
+    type: "\u5347\u7D1A\u7D20\u6750"
+    value1: 0
+    content: 0
+  - number: 2001
+    name: "\u57FA\u790E\u767C\u96FB\u5EE0"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2002
+    name: "\u80FD\u6E90\u767C\u96FB\u5EE0"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2003
+    name: "\u57FA\u790E\u5DE5\u5EE0"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2004
+    name: "\u79D1\u6280\u5DE5\u5EE0"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2005
+    name: "\u5C0F\u5403\u6524"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2006
+    name: "\u5BB6\u5EAD\u9910\u9928"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2007
+    name: "\u5C0F\u9910\u5EF3"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2008
+    name: "\u58FD\u53F8\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2009
+    name: "\u51B0\u679C\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2010
+    name: "\u70D8\u7119\u5C4B"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2011
+    name: "\u98F2\u6599\u6524"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2012
+    name: "\u98F2\u6599\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2013
+    name: "\u9023\u9396\u98F2\u6599\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2014
+    name: "\u8336\u85DD\u9928"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2015
+    name: "\u5496\u5561\u5EF3"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2016
+    name: "\u725B\u5976\u8216"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2017
+    name: "\u8DEF\u908A\u5C0F\u8CA9"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2018
+    name: "\u8857\u89D2\u5546\u8216"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2019
+    name: "\u96F6\u552E\u5546\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2020
+    name: "\u91CF\u8CA9\u5546\u5834"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2021
+    name: "\u767B\u5C71\u5E33\u7BF7"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2022
+    name: "\u5C0F\u6728\u5C4B"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2023
+    name: "\u9732\u71DF\u6728\u5C4B"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2024
+    name: "\u7368\u68DF\u4F4F\u5B85"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2025
+    name: "\u516C\u8ECA\u7AD9\u724C"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2026
+    name: "\u516C\u8ECA\u505C\u9760\u7AD9"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2027
+    name: "\u516C\u8DEF\u4F11\u606F\u7AD9"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2028
+    name: "\u6C7D\u8ECA\u7DAD\u4FEE\u5E97"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2029
+    name: "\u505C\u6A5F\u576A"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2030
+    name: "\u81E8\u6642\u91AB\u7642\u88DD\u7F6E"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2031
+    name: "\u7DCA\u6025\u6025\u6551\u7AD9"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2032
+    name: "\u5C0F\u578B\u8A3A\u6240"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2033
+    name: "\u5C08\u9580\u8A3A\u6240"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2034
+    name: "\u85E5\u5C40"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2035
+    name: "\u5C0F\u516C\u5712"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2036
+    name: "\u793E\u5340\u516C\u5712"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2037
+    name: "\u793E\u5340\u4E2D\u592E\u516C\u5712"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2038
+    name: "\u62F1\u6A4B\u666F\u5340"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0
+  - number: 2039
+    name: "\u570B\u5BB6\u516C\u5712"
+    icon: 0
+    type: "\u5EFA\u7BC9\u7269"
+    value1: 0
+    content: 0

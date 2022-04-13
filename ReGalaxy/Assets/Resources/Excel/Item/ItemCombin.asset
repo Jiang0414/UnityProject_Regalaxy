@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc21ca3f35bd9d647af5dfc18b3e5575, type: 3}
+  m_Name: ItemCombin
+  m_EditorClassIdentifier: 
+  SheetName: Assets/04Excel/System.xlsx
+  WorksheetName: ItemCombin
+  dataArray:
+  - number: 1
+    icon: 0
+    name: "\u5EFA\u7BC9\u7D20\u6750\u5305"
+    type1: 1001/0.5#1002/0.5
+    amount1: 1/0.5#2/0.3#3/0.2
+    type2: 1003/1.0
+    amount2: 1/0.1#0/0.9
+    type3: 0
+    amount3: 0
+  - number: 2
+    icon: 0
+    name: "\u79D1\u6280\u5316\u52A9\u529B"
+    type1: 1004/0.5#1005/0.4
+    amount1: 1/0.5#2/0.3#3/0.2
+    type2: 1006/1.0
+    amount2: 1/0.1#0/0.9
+    type3: 0
+    amount3: 0
+  - number: 3
+    icon: 0
+    name: "\u90FD\u5E02\u5316\u85CD\u5716"
+    type1: 1007/1.0
+    amount1: 2/0.6#3/0.4
+    type2: 1008/1.0
+    amount2: 1/0.1#0/0.9
+    type3: 0
+    amount3: 0
+  - number: 4
+    icon: 0
+    name: "\u947D\u77F3\u888B"
+    type1: 2/1.0
+    amount1: 20/0.5#50/0.3#100/0.2
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 5
+    icon: 0
+    name: "\u9F52\u8F2A\u5305"
+    type1: 1001/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 6
+    icon: 0
+    name: "\u6728\u6750\u5305"
+    type1: 1002/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 7
+    icon: 0
+    name: "\u534A\u5C0E\u9AD4\u5305"
+    type1: 1004/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 8
+    icon: 0
+    name: "\u77FD\u7D50\u6676\u5305"
+    type1: 1005/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 9
+    icon: 0
+    name: "\u85CD\u5716\u788E\u7247\u5305"
+    type1: 1007/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 10
+    icon: 0
+    name: "\u5DE5\u7A0B\u5305\u79AE\u76D2"
+    type1: 1003/1.0
+    amount1: 1/1.0
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 11
+    icon: 0
+    name: "\u79D1\u6280\u6676\u7247\u79AE\u76D2"
+    type1: 1006/1.0
+    amount1: 1/1.0
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 12
+    icon: 0
+    name: "\u80FD\u6E90\u85CD\u5716\u79AE\u76D2"
+    type1: 1008/1.0
+    amount1: 1/1.0
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  dataList:
+  - number: 1
+    icon: 0
+    name: "\u5EFA\u7BC9\u7D20\u6750\u5305"
+    type1: 1001/0.5#1002/0.5
+    amount1: 1/0.5#2/0.3#3/0.2
+    type2: 1003/1.0
+    amount2: 1/0.1#0/0.9
+    type3: 0
+    amount3: 0
+  - number: 2
+    icon: 0
+    name: "\u79D1\u6280\u5316\u52A9\u529B"
+    type1: 1004/0.5#1005/0.4
+    amount1: 1/0.5#2/0.3#3/0.2
+    type2: 1006/1.0
+    amount2: 1/0.1#0/0.9
+    type3: 0
+    amount3: 0
+  - number: 3
+    icon: 0
+    name: "\u90FD\u5E02\u5316\u85CD\u5716"
+    type1: 1007/1.0
+    amount1: 2/0.6#3/0.4
+    type2: 1008/1.0
+    amount2: 1/0.1#0/0.9
+    type3: 0
+    amount3: 0
+  - number: 4
+    icon: 0
+    name: "\u947D\u77F3\u888B"
+    type1: 2/1.0
+    amount1: 20/0.5#50/0.3#100/0.2
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 5
+    icon: 0
+    name: "\u9F52\u8F2A\u5305"
+    type1: 1001/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 6
+    icon: 0
+    name: "\u6728\u6750\u5305"
+    type1: 1002/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 7
+    icon: 0
+    name: "\u534A\u5C0E\u9AD4\u5305"
+    type1: 1004/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 8
+    icon: 0
+    name: "\u77FD\u7D50\u6676\u5305"
+    type1: 1005/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 9
+    icon: 0
+    name: "\u85CD\u5716\u788E\u7247\u5305"
+    type1: 1007/1.0
+    amount1: 1/0.6#2/0.4
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 10
+    icon: 0
+    name: "\u5DE5\u7A0B\u5305\u79AE\u76D2"
+    type1: 1003/1.0
+    amount1: 1/1.0
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 11
+    icon: 0
+    name: "\u79D1\u6280\u6676\u7247\u79AE\u76D2"
+    type1: 1006/1.0
+    amount1: 1/1.0
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
+  - number: 12
+    icon: 0
+    name: "\u80FD\u6E90\u85CD\u5716\u79AE\u76D2"
+    type1: 1008/1.0
+    amount1: 1/1.0
+    type2: 0
+    amount2: 0
+    type3: 0
+    amount3: 0
