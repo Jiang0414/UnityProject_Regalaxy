@@ -54,6 +54,22 @@ MonoBehaviour:
     name: Amount3
     isEnable: 0
     isArray: 0
+  - type: 1
+    name: Type4
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: Amount4
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: Type5
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: Amount5
+    isEnable: 0
+    isArray: 0
   excelFilePath: Assets/04Excel/System.xlsx
   SheetNames:
   - Item

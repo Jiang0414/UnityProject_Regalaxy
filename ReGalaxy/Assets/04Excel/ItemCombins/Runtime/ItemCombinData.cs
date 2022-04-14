@@ -44,4 +44,20 @@ public class ItemCombinData
   string amount3;
   public string Amount3 { get {return amount3; } set { amount3 = value;} }
   
+  [SerializeField]
+  string type4;
+  public string Type4 { get {return type4; } set { type4 = value;} }
+  
+  [SerializeField]
+  string amount4;
+  public string Amount4 { get {return amount4; } set { amount4 = value;} }
+  
+  [SerializeField]
+  string type5;
+  public string Type5 { get {return type5; } set { type5 = value;} }
+  
+  [SerializeField]
+  string amount5;
+  public string Amount5 { get {return amount5; } set { amount5 = value;} }
+  
 }
