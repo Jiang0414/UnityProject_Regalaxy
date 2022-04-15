@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc21ca3f35bd9d647af5dfc18b3e5575, type: 3}
   m_Name: ItemCombin
   m_EditorClassIdentifier: 
-  SheetName: Assets/04Excel/System.xlsx
+  SheetName: Assets/04Excel/ItemSystem.xlsx
   WorksheetName: ItemCombin
   dataArray:
   - number: 1

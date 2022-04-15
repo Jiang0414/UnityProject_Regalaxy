@@ -11,7 +11,7 @@ public class Btn : MonoBehaviour
 
     public void BtnGetItem()
     {
-        Random.seed = (int)(Random.value * Random.Range(0, 1000));
+        Random.InitState((int)(Random.value * Random.Range(0, 1000)));
         int RanCombin = Random.Range(1, 13);
 
         string itemNumber = GetRandom.Instance.GetRandomValue(1, R_ItemCombin.Instance.GetItemType1(RanCombin));
@@ -25,7 +25,7 @@ public class Btn : MonoBehaviour
 
     public void BtnGetItemAll()
     {
-        Random.seed = (int)(Random.value * Random.Range(0, 1000));
+        Random.InitState((int)(Random.value * Random.Range(0, 1000)));
         int RanCombin = Random.Range(1, 13);
         R_ItemCombin.Instance.GetItemTypes(RanCombin);
         foreach (var item in R_ItemCombin.combineTypes)

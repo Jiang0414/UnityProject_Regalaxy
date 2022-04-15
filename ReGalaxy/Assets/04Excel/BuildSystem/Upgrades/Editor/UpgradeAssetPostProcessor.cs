@@ -7,11 +7,11 @@ using UnityQuickSheet;
 ///
 /// !!! Machine generated code !!!
 ///
-public class ItemCombinAssetPostprocessor : AssetPostprocessor 
+public class UpgradeAssetPostprocessor : AssetPostprocessor 
 {
-    private static readonly string filePath = "Assets/04Excel/System.xlsx";
-    private static readonly string assetFilePath = "Assets/04Excel/ItemCombin.asset";
-    private static readonly string sheetName = "ItemCombin";
+    private static readonly string filePath = "Assets/04Excel/BuildSytem.xlsx";
+    private static readonly string assetFilePath = "Assets/04Excel/Upgrade.asset";
+    private static readonly string sheetName = "Upgrade";
     
     static void OnPostprocessAllAssets (string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
     {
@@ -20,16 +20,16 @@ public class ItemCombinAssetPostprocessor : AssetPostprocessor
             if (!filePath.Equals (asset))
                 continue;
                 
-            ItemCombin data = (ItemCombin)AssetDatabase.LoadAssetAtPath (assetFilePath, typeof(ItemCombin));
+            Upgrade data = (Upgrade)AssetDatabase.LoadAssetAtPath (assetFilePath, typeof(Upgrade));
             if (data == null) {
-                data = ScriptableObject.CreateInstance<ItemCombin> ();
+                data = ScriptableObject.CreateInstance<Upgrade> ();
                 data.SheetName = filePath;
                 data.WorksheetName = sheetName;
                 AssetDatabase.CreateAsset ((ScriptableObject)data, assetFilePath);
                 //data.hideFlags = HideFlags.NotEditable;
             }
             
-            //data.dataArray = new ExcelQuery(filePath, sheetName).Deserialize<ItemCombinData>().ToArray();		
+            //data.dataArray = new ExcelQuery(filePath, sheetName).Deserialize<UpgradeData>().ToArray();		
 
             //ScriptableObject obj = AssetDatabase.LoadAssetAtPath (assetFilePath, typeof(ScriptableObject)) as ScriptableObject;
             //EditorUtility.SetDirty (obj);
@@ -37,8 +37,8 @@ public class ItemCombinAssetPostprocessor : AssetPostprocessor
             ExcelQuery query = new ExcelQuery(filePath, sheetName);
             if (query != null && query.IsValid())
             {
-                data.dataArray = query.Deserialize<ItemCombinData>().ToArray();
-                data.dataList = query.Deserialize<ItemCombinData>();
+                data.dataArray = query.Deserialize<UpgradeData>().ToArray();
+                data.dataList = query.Deserialize<UpgradeData>();
                 ScriptableObject obj = AssetDatabase.LoadAssetAtPath (assetFilePath, typeof(ScriptableObject)) as ScriptableObject;
                 EditorUtility.SetDirty (obj);
             }

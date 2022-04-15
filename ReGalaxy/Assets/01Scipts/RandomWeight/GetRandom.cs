@@ -22,7 +22,7 @@ public class GetRandom : MonoBehaviour
     private void LoadWeight(int ID , string content)
     {
         string _content = content; //R_ItemCombin.Instance.GetItemType1(ID)
-        string[] cArray = content.Split("#");
+        string[] cArray = _content.Split("#");
         foreach (var c in cArray)
         {
             string[] idWeight = c.Split("/");
@@ -59,5 +59,4 @@ public class GetRandom : MonoBehaviour
         weightDict.Clear();
         return itemName;
     }
-
 }
