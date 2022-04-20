@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "title": "手槍",
+    "value": 1,
+    "description": "一把簡易的手槍。"
+  },
+  {
+    "id": 1,
+    "title": "沖鋒槍",
+    "value": 2,
+    "description": "一把簡易的沖鋒槍。"
+  }
+]
